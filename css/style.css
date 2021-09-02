@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_content{
+    background-color: #eff0f121;
+    width: 90%;
+    margin: 5% auto;
+    padding: 20px;
+    overflow: auto;
+    display: grid;
+    align-items: center;
+}
+
+.intro{
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 0px 30px 0px 30px;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.main_content h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.prof_img img{
+    border-radius: 10px;
+    float:left;
+    padding-right:30px;
+    margin-bottom: 30px;
+}
+
+.text_writeup{
+    width: 350px;
+    margin-left: 20px;
+    text-align: justify;
+    text-justify:inter-word;
+}
+.text_writeup h2{
+    text-align: center;
+    margin-bottom: 20px 0px 20px 0px;
+    left: 50px;
+    display: inline-block;
+    right: 30px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.text_writeup h2:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 20%;
+    border-bottom: 3px solid rgb(206, 98, 98);
+}
+
+.text_writeup p{
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.contact{
+    padding:50px;
+    margin: 2px auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #000
+
+}
+.contact h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.form_input{
+    padding-top: 15px;
+}
+.form_input input, textarea{
+    width: 100%;
+    padding: 9px;
+    border-radius: 2px solid #000;
+    resize: none;
+}
+.form_input label{
+    padding-top: 20px;
+}
+
+.form_input button{
+    float: right;
+    padding: 4px;
+    width: 150px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(115, 113, 235);
+    border: 3px solid rgb(93, 44, 206);
+}
